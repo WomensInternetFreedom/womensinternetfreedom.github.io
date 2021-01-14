@@ -2175,6 +2175,11 @@ input, select, textarea {
 		background-size: cover;
 	}
 
+	#header.ovarit {
+		background: #6c4290;
+		background-size: cover;
+	}
+
 		#header:before {
 			content: '';
 			position: absolute;
