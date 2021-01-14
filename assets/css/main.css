@@ -182,6 +182,33 @@ input, select, textarea {
 		width: 68em;
 	}
 
+		.container .split {
+			display: flex;
+			justify-content: center;
+		}
+
+		.container .split .image img {
+			width: 250px;
+			margin-top: 2em;
+			border: solid 10px #fff;
+		}
+
+		.container .split.style2 .text {
+			width: 60%;
+			text-align: left;
+			padding-left: 40px;
+		}
+
+		.container .split.style2 .text h2 {
+			font-size: 2em;
+		}
+
+		.container .split.style2 .text p {
+			margin-top: 20px;
+			font-size: 1.3em;
+			max-width: 600px;
+		}
+
 		@media screen and (max-width: 1680px) {
 
 			.container {
