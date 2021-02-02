@@ -1,0 +1,3 @@
+*.db
+wifa/cache/
+*/__pycache__/*
