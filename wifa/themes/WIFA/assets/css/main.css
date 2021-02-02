@@ -2150,7 +2150,7 @@ input, select, textarea {
 		padding: 0;
 	}
 
-	#header.home {
+	.homepage #header {
 		background: url("../../images/agreement-compressed.gif") center center;
 		background-size: cover;
 	}
