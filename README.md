@@ -1,7 +1,7 @@
 # womensinternetfreedom.github.io
 Women's Internet Freedom Static Site
 
-The website is built using [Nikola](https://getnikola.com/) static site generator.
+The website is built using [Nikola](https://getnikola.com/) static site generator. [Jinja](https://jinja.palletsprojects.com/en/2.11.x/) template style is used.
 
 # How to run the site
 
