@@ -2,7 +2,7 @@
 {% import 'base_helper.tmpl' as base with context %}
 
 {% macro html_header() %}
-    <section id="header" class="home wrapper">
+    <section id="header" class="{{slug}} wrapper">
         {{ html_site_title() }}
         {{ html_translation_header() }}
         {{ html_navigation_links() }}

@@ -78,10 +78,10 @@ TRANSLATIONS_PATTERN = '{path}.{lang}.{ext}'
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
         ("/", "Home"),
-        ("/projects", "Projects"),
-        ("/resources", "Resources"),
-        ("/get-involved", "Get involved"),
-        ("/get-help", "Get help"),
+        ("/projects.html", "Projects"),
+        ("/resources.html", "Resources"),
+        ("/get-involved.html", "Get involved"),
+        ("/get-help.html", "Get help"),
         ("https://4w.pub/tag/womensinternetfreedomalliance", "Blog"),
         ("https://feministtech-womensliberationfront.nationbuilder.com/donate", "Donate"),
     ),
@@ -987,7 +987,7 @@ STRIP_INDEXES = True
 # This can be disabled on a per-page/post basis by adding
 #    .. pretty_url: False
 # to the metadata.
-PRETTY_URLS = True
+PRETTY_URLS = False
 
 # If True, publish future dated posts right away instead of scheduling them.
 # Defaults to False.

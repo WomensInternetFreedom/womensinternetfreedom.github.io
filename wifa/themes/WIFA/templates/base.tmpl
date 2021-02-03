@@ -16,15 +16,7 @@
     <a href="#content" class="sr-only sr-only-focusable">{{ messages("Skip to main content") }}</a>
     <div id="page-wrapper">
         {{ header.html_header() }}
-        
-        
-        
-        <main id="content">
             {% block content %}{% endblock %}
-        </main>
-        
-        
-        
         {{ footer.html_footer() }}
     </div>
     {{ base.late_load_js() }}
