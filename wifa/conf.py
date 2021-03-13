@@ -24,7 +24,7 @@ SITE_URL = "https://womensinternetfreedom.org/"
 # This is the URL where Nikola's output will be deployed.
 # If not set, defaults to SITE_URL
 # BASE_URL = "https://womensinternetfreedom.org/"
-BLOG_EMAIL = "n.tesla@example.com"
+BLOG_EMAIL = "info@womensinternetfreedom.com"
 BLOG_DESCRIPTION = "Promoting women's free and open participation on the Web"  # (translatable)
 
 
@@ -77,13 +77,11 @@ TRANSLATIONS_PATTERN = '{path}.{lang}.{ext}'
 
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
-        ("/", "Home"),
         ("/projects.html", "Projects"),
         ("/resources.html", "Resources"),
-        ("/get-involved.html", "Get involved"),
-        ("/get-help.html", "Get help"),
-        ("https://4w.pub/tag/womensinternetfreedomalliance", "Blog"),
-        ("https://feministtech-womensliberationfront.nationbuilder.com/donate", "Donate"),
+        ("/get-involved.html", "Volunteer"),
+        ("/get-help.html", "Get Help"),
+        # ("https://feministtech-womensliberationfront.nationbuilder.com/donate", "Donate"),
     ),
 }
 
@@ -91,7 +89,10 @@ NAVIGATION_LINKS = {
 # although themes may not always support them. (translatable)
 # (Bootstrap 4: right-side of navbar, Bootblog 4: right side of title)
 NAVIGATION_ALT_LINKS = {
-    DEFAULT_LANG: ()
+    DEFAULT_LANG: (
+        ("https://4w.pub/tag/womensinternetfreedomalliance", "Blog"),
+        ("/about.html", "About"),
+    )
 }
 
 # Name of the theme to use.
