@@ -90,8 +90,8 @@ NAVIGATION_LINKS = {
 # (Bootstrap 4: right-side of navbar, Bootblog 4: right side of title)
 NAVIGATION_ALT_LINKS = {
     DEFAULT_LANG: (
-        ("https://4w.pub/tag/womensinternetfreedomalliance", "Blog"),
         ("/about.html", "About"),
+        ("https://4w.pub/tag/womensinternetfreedomalliance", "Blog"),
     )
 }
 
