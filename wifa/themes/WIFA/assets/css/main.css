@@ -1731,6 +1731,7 @@ input, select, textarea {
 		min-width: 12em;
 		height: auto;
 		line-height: 1em;
+		padding: 5px 20px;
 		font-family: 'Righteous', cursive;
 	}
 
@@ -1756,7 +1757,7 @@ input, select, textarea {
 		input[type="reset"].style1,
 		button.style1,
 		.button.style1 {
-			background: #049a8f url("images/overlay.png");
+			background: #2C346B url("images/overlay.png");
 			color: #fff;
 		}
 
@@ -1934,7 +1935,7 @@ input, select, textarea {
 		}
 
 		.feature-list h3 {
-			color: #049a8f !important;
+			color: #2C346B !important;
 			margin: -0.35em 0 0.75em 0;
 			font-size: 1.15em;
 			letter-spacing: 0.05em;
@@ -2086,13 +2087,13 @@ input, select, textarea {
 			}
 
 		.wrapper.style1 {
-			background: #049a8f url("images/overlay.png");
+			background: #2C346B url("images/overlay.png");
 			color: #eee;
 			color: rgba(255, 255, 255, 0.75);
 		}
 
 			.wrapper.style1 .title {
-				background: #049a8f url("images/overlay.png");
+				background: #2C346B url("images/overlay.png");
 				color: #fff;
 			}
 
@@ -2169,18 +2170,42 @@ input, select, textarea {
 		text-decoration: none;
 		text-transform: uppercase;
 		color: white;
-		font-size: 18px;
+		font-size: 20px;
+		-moz-transition: all .25s ease-in-out;
+		-webkit-transition: all .25s ease-in-out;
+		-ms-transition: all .25s ease-in-out;
+		transition: all .25s ease-in-out;
+	}
+
+	#primary_nav ul li a:hover {
+		color: #E1F16B;
 	}
 
 	#header .nav.primary {
 		background: #2C346B;
-		height: 100px;
+		height: 120px;
 		color: white;
 		font-family: 'Righteous', cursive;
 		width: 100%;
-		padding: 0 20px;
+		padding: 0 30px;
 		justify-content: space-between;
     align-items: center;
+	}
+
+	#header .nav.primary a {
+		text-decoration: none;
+	}
+
+	#header .nav.primary a #logo h1, #header .nav.primary a #logo .subtitle {
+		-moz-transition: all .25s ease-in-out;
+		-webkit-transition: all .25s ease-in-out;
+		-ms-transition: all .25s ease-in-out;
+		transition: all .25s ease-in-out;
+		color: white;
+	}
+
+	#header .nav.primary a:hover #logo h1, #header .nav.primary a:hover #logo .subtitle {
+		color: #E1F16B;
 	}
 
 	#header .nav.primary .primary_nav_links {
@@ -2200,9 +2225,14 @@ input, select, textarea {
 		font-family: 'Righteous', cursive;
 		background-color: #5CE1E6;
 		line-height: 1em;
-		padding: 5px;
+		padding: 7px;
 		height: auto;
 		margin: auto 10px;
+	}
+
+	#header .nav.secondary .donate_button button:hover {
+		background-color: #2C346B;
+		color: #E1F16B;
 	}
 
 
@@ -2218,16 +2248,16 @@ input, select, textarea {
 		#logo h1 {
 			font-weight: 900;
 			text-transform: uppercase;
-			color: #fff;
 			font-size: 3.5em;
 			line-height: 1em;
 			letter-spacing: 0.25em;
+			text-decoration: none;
 		}
 
 		#logo .subtitle {
-			color: white;
 			font-family: 'Montserrat', sans-serif;
 			max-width: 200px;
+			text-decoration: none;
 		}
 
 
@@ -2244,19 +2274,64 @@ input, select, textarea {
 	}
 
 
-/* Intro */
+	/* Intro */
 
-	#intro {
+	#intro .container {
+		margin: 0 auto;
+	}
+
+	.intro-text-and-image-container {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.intro-text-and-image-container .intro-text {
+		width: 450px;
+		background: #2C346B;
+		color: white;
+		font-family: 'Righteous', cursive;
+		font-size: 28px;
+		padding: 40px;
+		height: 100%;
+		z-index: 2;
+		margin-left: 40px;
+	}
+
+	.intro-text-and-image-container .intro-text .volunteer_button {
+		padding-top: 20px;
+	}
+
+	.intro-text-and-image-container .intro-text .volunteer_button button {
+		background-color: #E1F16B;
+	}
+
+	.intro-text-and-image-container .intro-text .volunteer_button button:hover {
+		background-color: #5CE1E6;
+	}
+
+	.intro-text-and-image-container .intro-image img {
+		width: 700px;
+		border-right: 30px solid #E1F16B;
+		z-index: 1;
+		margin-left: -100px;
+	}
+
+
+/* About */
+
+	#about {
 		padding-bottom: 8em;
 		text-align: center;
 	}
 
-		#intro p.style1 {
+		#about p.style1 {
 			font-size: 1.5em;
 			letter-spacing: 0.075em;
 		}
 
-		#intro p.style2 {
+		#about p.style2 {
 			font-weight: 700;
 			color: #fff;
 			border-radius: 0.35em;
@@ -2268,12 +2343,12 @@ input, select, textarea {
 			margin-bottom: 1em;
 		}
 
-			#intro p.style2 a {
+			#about p.style2 a {
 				color: inherit;
 				text-decoration: none;
 			}
 
-		#intro p.style3 {
+		#about p.style3 {
 			font-size: 1.1em;
 			width: 48em;
 			margin: 0 auto;
@@ -2297,7 +2372,7 @@ input, select, textarea {
 	}
 
 		#highlights .highlight h3 {
-			color: #049a8f;
+			color: #2C346B;
 			margin: 0 0 0.75em 0;
 			font-size: 1.15em;
 			letter-spacing: 0.05em;
@@ -2482,17 +2557,17 @@ input, select, textarea {
 				margin-top: -0.5em !important;
 			}
 
-		/* Intro */
+		/* About */
 
-			#intro {
+			#about {
 				padding-bottom: 7em;
 			}
 
-				#intro p.style1 {
+				#about p.style1 {
 					font-size: 1.25em;
 				}
 
-				#intro p.style2 {
+				#about p.style2 {
 					font-size: 2.25em;
 				}
 
@@ -2564,9 +2639,9 @@ input, select, textarea {
 				top: 0;
 			}
 
-		/* Intro */
+		/* About */
 
-			#intro p.style3 {
+			#about p.style3 {
 				width: auto;
 			}
 
@@ -2933,9 +3008,10 @@ input, select, textarea {
 					max-width: 90%;
 				}
 
-		/* Intro */
 
-			#intro {
+		/* About */
+
+			#about {
 				text-align: center;
 				padding-right: 2em;
 				padding-left: 2em;
@@ -2943,11 +3019,11 @@ input, select, textarea {
 				margin: 0 auto;
 			}
 
-				#intro p.style1 {
+				#about p.style1 {
 					margin-bottom: 1.5em;
 				}
 
-				#intro p.style2 {
+				#about p.style2 {
 					font-size: 1.5em;
 					letter-spacing: 0.05em;
 					line-height: 1.25em;
