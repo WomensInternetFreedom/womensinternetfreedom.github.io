@@ -1,0 +1,13 @@
+{% extends 'story.tmpl' %}
+
+{% block content %}
+    {{ post.text() }}      
+{% endblock %}
+
+{% set title=post.title() %}
+{% set subtitle=post.description() %}
+{% set slug=post.meta('slug') %}
+
+{% if slug=='index' %}
+    {% set is_main_page=1 %}
+{% endif %}

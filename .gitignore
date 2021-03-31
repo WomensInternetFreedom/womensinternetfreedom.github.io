@@ -1,0 +1,5 @@
+*.db
+wifa/cache/
+wifa/output/
+*/__pycache__/*
+venv/
