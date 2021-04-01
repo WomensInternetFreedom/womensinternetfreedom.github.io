@@ -1,0 +1,4 @@
+Sitemap: https://womensinternetfreedom.org/sitemapindex.xml
+
+User-Agent: *
+Host: womensinternetfreedom.org
