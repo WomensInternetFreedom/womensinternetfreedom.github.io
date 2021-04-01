@@ -3,36 +3,79 @@
 
 {% macro html_header() %}
     <section id="header" class="{{slug}} wrapper">
-        {{ html_site_title() }}
+      {{ html_secondary_nav() }}
+      {{ html_primary_nav() }}
+        <!-- {{ html_site_title() }}
         {{ html_translation_header() }}
         {{ html_navigation_links() }}
         {% if search_form %}
             <div class="searchform" role="search">
                 {{ search_form }}
             </div>
-        {% endif %}
+        {% endif %} -->
     </section>
     {{ template_hooks['page_header']() }}
 {% endmacro %}
 
+{% macro html_secondary_nav() %}
+    <div class="nav secondary">
+      <div class="about_nav_links">
+        {{ html_navigation_alt_links() }}
+      </div>
+      <div class="social_nav_links">
+
+      </div>
+      <div class="donate_button">
+        <a href="https://feministtech-womensliberationfront.nationbuilder.com/donate"><button>Donate</button></a>
+      </div>
+    </div>
+{% endmacro %}
+
+{% macro html_primary_nav() %}
+    <div class="nav primary">
+      <a href="/"><div class="logo">
+        {{ html_site_title() }}
+      </div></a>
+      <div class="primary_nav_links">
+        {{ html_navigation_links() }}
+      </div>
+    </div>
+{% endmacro %}
+
+
+
+
+
+
+
+
+
+
+
+
+
 {% macro html_site_title() %}
-
-<div id="logo">
-<h1>
-    {{ title }}
-</h1>
-<p class="style1">{{ description }}</p>
-
-</div>
-
+    <div id="logo">
+    <h1>
+        WIFA
+    </h1>
+    <div class="subtitle">Women's Internet Freedom Alliance</div>
+    </div>
 {% endmacro %}
 
 {% macro html_navigation_links() %}
-    <nav id="nav">
+    <nav id="primary_nav">
     <ul>
     {{ html_navigation_links_entries(navigation_links) }}
-    {{ html_navigation_links_entries(navigation_alt_links) }}
     {{ template_hooks['menu']() }}
+    </ul>
+    </nav>
+{% endmacro %}
+
+{% macro html_navigation_alt_links() %}
+    <nav id="secondary_nav">
+    <ul>
+    {{ html_navigation_links_entries(navigation_alt_links) }}
     {{ template_hooks['menu_alt']() }}
     </ul>
     </nav>
