@@ -1758,7 +1758,7 @@ input, select, textarea {
 		button.style1,
 		.button.style1 {
 			background: #E1F16B url("images/overlay.png");
-			color: #272727;
+			color: #272727 !important;
 		}
 
 			input[type="button"].style1:hover,
@@ -1935,10 +1935,17 @@ input, select, textarea {
 		}
 
 		.feature-list h3 {
-			color: #2C346B !important;
 			margin: -0.35em 0 0.75em 0;
 			font-size: 1.15em;
 			letter-spacing: 0.05em;
+		}
+
+		.style3.feature-list h3 {
+			color: #5CE1E6 !important;
+		}
+
+		.style1.feature-list h3 {
+			color: #2C346B !important;
 		}
 
 			.feature-list h3:before {
