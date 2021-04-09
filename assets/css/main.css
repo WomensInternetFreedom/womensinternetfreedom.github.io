@@ -1927,7 +1927,7 @@ input, select, textarea {
 
 		@media screen and (min-width: 981px) {
 
-			.feature-list > .row > section {
+			.feature-list > .row > :nth-child(-n + 2) > section {
 				border-top: 0;
 				padding-top: 0;
 			}
@@ -2480,8 +2480,7 @@ input, select, textarea {
 		}
 
 			#footer .feature-list section {
-				/* border-top-color: rgba(255, 255, 255, 0.05); */
-				border-top: 0;
+				border-top-color: rgba(255, 255, 255, 0.05);
 			}
 
 			#footer .feature-list h3:before {
@@ -2672,7 +2671,7 @@ input, select, textarea {
 
 		@media screen and (max-width: 980px) and (min-width: 737px) {
 
-				#footer .feature-list > .row > section {
+				#footer .feature-list > .row > :nth-child(2) > section {
 					border-top: 0;
 					padding-top: 0;
 				}
