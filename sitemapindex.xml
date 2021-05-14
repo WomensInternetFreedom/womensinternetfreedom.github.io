@@ -6,11 +6,15 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
+  <loc>https://womensinternetfreedom.org/galleries/rss.xml</loc>
+  <lastmod>2021-05-14T12:10:00Z</lastmod>
+ </sitemap>
+ <sitemap>
   <loc>https://womensinternetfreedom.org/rss.xml</loc>
-  <lastmod>2021-02-05T15:44:00Z</lastmod>
+  <lastmod>2021-05-14T12:11:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://womensinternetfreedom.org/sitemap.xml</loc>
-  <lastmod>2021-04-09T18:41:00Z</lastmod>
+  <lastmod>2021-05-14T17:09:00Z</lastmod>
  </sitemap>
 </sitemapindex>

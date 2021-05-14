@@ -7,66 +7,106 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://womensinternetfreedom.org/</loc>
-  <lastmod>2021-02-05T15:44:00Z</lastmod>
+  <lastmod>2021-05-14T12:44:00Z</lastmod>
  </url>
  <url>
   <loc>https://womensinternetfreedom.org/archive.html</loc>
-  <lastmod>2021-04-09T18:41:00Z</lastmod>
+  <lastmod>2021-05-14T12:11:00Z</lastmod>
  </url>
  <url>
   <loc>https://womensinternetfreedom.org/blog/</loc>
-  <lastmod>2021-02-05T15:44:00Z</lastmod>
+  <lastmod>2021-05-14T12:11:00Z</lastmod>
  </url>
  <url>
   <loc>https://womensinternetfreedom.org/categories/</loc>
-  <lastmod>2021-02-05T15:44:00Z</lastmod>
+  <lastmod>2021-05-14T12:11:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://womensinternetfreedom.org/galleries/</loc>
+  <lastmod>2021-05-14T12:10:00Z</lastmod>
  </url>
  <url>
   <loc>https://womensinternetfreedom.org/index.src.html</loc>
-  <lastmod>2021-04-02T18:59:00Z</lastmod>
+  <lastmod>2021-05-14T12:09:00Z</lastmod>
  </url>
  <url>
   <loc>https://womensinternetfreedom.org/left-sidebar.html</loc>
-  <lastmod>2021-04-09T18:41:00Z</lastmod>
+  <lastmod>2021-05-14T12:11:00Z</lastmod>
  </url>
  <url>
   <loc>https://womensinternetfreedom.org/left-sidebar.src.html</loc>
-  <lastmod>2021-02-05T15:36:00Z</lastmod>
+  <lastmod>2021-03-26T18:30:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://womensinternetfreedom.org/listings/</loc>
+  <lastmod>2021-05-14T12:10:00Z</lastmod>
  </url>
  <url>
   <loc>https://womensinternetfreedom.org/no-sidebar.html</loc>
-  <lastmod>2021-04-09T18:41:00Z</lastmod>
+  <lastmod>2021-05-14T12:11:00Z</lastmod>
  </url>
  <url>
   <loc>https://womensinternetfreedom.org/no-sidebar.src.html</loc>
-  <lastmod>2021-02-05T15:36:00Z</lastmod>
+  <lastmod>2021-03-26T18:30:00Z</lastmod>
  </url>
  <url>
   <loc>https://womensinternetfreedom.org/ovarit.html</loc>
-  <lastmod>2021-04-09T18:41:00Z</lastmod>
+  <lastmod>2021-05-14T12:37:00Z</lastmod>
  </url>
  <url>
   <loc>https://womensinternetfreedom.org/ovarit.src.html</loc>
-  <lastmod>2021-02-05T15:36:00Z</lastmod>
+  <lastmod>2021-05-14T12:37:00Z</lastmod>
  </url>
  <url>
   <loc>https://womensinternetfreedom.org/projects.html</loc>
-  <lastmod>2021-04-09T18:41:00Z</lastmod>
+  <lastmod>2021-05-14T17:06:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://womensinternetfreedom.org/projects/femtube.html</loc>
+  <lastmod>2021-05-14T17:06:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://womensinternetfreedom.org/projects/femtube.src.html</loc>
+  <lastmod>2021-05-14T17:01:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://womensinternetfreedom.org/projects/ovarit.html</loc>
+  <lastmod>2021-05-14T17:06:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://womensinternetfreedom.org/projects/ovarit.src.html</loc>
+  <lastmod>2021-05-14T17:01:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://womensinternetfreedom.org/projects/spinster.html</loc>
+  <lastmod>2021-05-14T17:06:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://womensinternetfreedom.org/projects/spinster.src.html</loc>
+  <lastmod>2021-05-14T17:01:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://womensinternetfreedom.org/projects/whrc.html</loc>
+  <lastmod>2021-05-14T17:09:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://womensinternetfreedom.org/projects/whrc.src.html</loc>
+  <lastmod>2021-05-14T17:09:00Z</lastmod>
  </url>
  <url>
   <loc>https://womensinternetfreedom.org/right-sidebar.html</loc>
-  <lastmod>2021-04-09T18:41:00Z</lastmod>
+  <lastmod>2021-05-14T12:11:00Z</lastmod>
  </url>
  <url>
   <loc>https://womensinternetfreedom.org/right-sidebar.src.html</loc>
-  <lastmod>2021-02-05T15:36:00Z</lastmod>
+  <lastmod>2021-03-26T18:30:00Z</lastmod>
  </url>
  <url>
   <loc>https://womensinternetfreedom.org/spinster.html</loc>
-  <lastmod>2021-04-09T18:41:00Z</lastmod>
+  <lastmod>2021-05-14T12:24:00Z</lastmod>
  </url>
  <url>
   <loc>https://womensinternetfreedom.org/spinster.src.html</loc>
-  <lastmod>2021-02-05T15:36:00Z</lastmod>
+  <lastmod>2021-05-14T12:24:00Z</lastmod>
  </url>
 </urlset>
